@@ -1,0 +1,16 @@
+SEED: 42
+GPU_NUM: "1"
+DATA_PATH: "../../Datasets/cifar10"
+LOG_PATH: "./logs"
+CKPT_PATH: "checkpoints/20220412_/epoch=799.ckpt"
+MODEL_PATH: "logs/20220413/version_3/checkpoints/epoch=79-step=3439.ckpt"
+cifar: True
+num_workers: 6
+
+EPOCHS: 80
+lr: 2e-1
+batch_size: 1024
+arch: "resnet18"
+
+momentum: 0.9
+weight_decay: 0

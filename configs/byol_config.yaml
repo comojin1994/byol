@@ -1,0 +1,19 @@
+SEED: 42
+GPU_NUM: "0,1,2"
+DATA_PATH: "../../Datasets/cifar10"
+LOG_PATH: "./logs"
+CKPT_PATH: "./checkpoints"
+cifar: True
+num_workers: 6
+
+EPOCHS: 1000
+lr: 2e-1
+batch_size: 4096
+arch: "resnet18"
+projection_dim: 256
+hidden_projection_dim: 4096
+hidden_prediction_dim: 4096
+EMA_decay_rate: 0.996
+
+momentum: 0.9
+weight_decay: 1.5e-6
